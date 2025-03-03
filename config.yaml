@@ -1,0 +1,15 @@
+# 训练参数
+batch_size: 16
+epochs: 100
+lr: 0.001
+scale_factor: 4
+val_split: 0.2  # 新增验证集比例
+
+# 数据集路径
+train_hr_dir: "D:/temp/our485/high"
+train_lr_dir: "D:/temp/our485/low"
+val_hr_dir: "D:/temp/eval15/high"
+val_lr_dir: "D:/temp/eval15/low"
+
+result_dir: "results/"
+save_dir: "./train_res/checkpoints/"
